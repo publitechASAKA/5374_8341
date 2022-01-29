@@ -136,6 +136,7 @@ a:hover {
 #accordion3 #about > p > a{
 	 color: #FF0000;
 	 text-decoration: underline;
+         font-weight: bold;
 	 font-size: larger;
 }
 #accordion3 #about2 > p > a{
