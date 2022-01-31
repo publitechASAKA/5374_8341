@@ -134,7 +134,10 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
-#accordion3 {
+#accordion3 #about {
+	 color: #000000;
+}
+#accordion3 #about {
 	 color: #000000;
 }
 #accordion3 #about > p > a{
