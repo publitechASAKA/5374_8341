@@ -63,7 +63,10 @@ a:hover {
 	font-size: 10px;
 	color: #ffffff;
 }
-
+/* ゴミを捨てるときの注意事項 */
+#accordion .ul {
+	color: #ffffff;
+}
 /*!
  * 備考欄
  */
