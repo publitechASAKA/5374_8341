@@ -103,6 +103,7 @@ a:hover {
 }
 #accordion3 #cfk {
 	border-top: 1px solid black;
+	color: #000000;
 }
 #accordion3 #caption {
 	font-size: 12px;
@@ -137,7 +138,7 @@ a:hover {
 #accordion3 #about {
 	 color: #000000;
 }
-#accordion3 #about {
+#accordion3 #about2 {
 	 color: #000000;
 }
 #accordion3 #about > p > a{
