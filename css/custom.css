@@ -36,6 +36,7 @@ a:hover {
 	text-align: center;
 	width: 80%;
 	font-size: 22px;
+	color: #ffffff;
 }
 #accordion .accordion-heading .accordion-toggle {
 	position: relative;
@@ -61,10 +62,6 @@ a:hover {
 /* ゴミを捨てるときの注意事項 */
 #accordion .note {
 	font-size: 10px;
-	color: #ffffff;
-}
-/* ゴミを捨てるときの注意事項 */
-#accordion .ul {
 	color: #ffffff;
 }
 /*!
