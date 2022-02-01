@@ -114,6 +114,10 @@ a:hover {
 	font-size: 12px;
 	font-weight: bold;
 }
+#accordion3 #caption > a {
+	color: #7F7F7F;
+	text-decoration: underline;
+}
 #accordion3 #help {
 	margin-left: 5px;
 	color: #000000;
