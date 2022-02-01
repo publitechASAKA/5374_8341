@@ -152,3 +152,7 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
+#accordion3 #publitech {
+	border-top: 1px solid black;
+	color: #000000;
+}
