@@ -164,6 +164,12 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
+#accordion3
+.popotan-img,
+.popotan{
+  display: inline-block;
+  vertical-align: middle;
+}
 #accordion3 #popotan > p {
   position: relative;
   display: inline-block;
