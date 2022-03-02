@@ -168,40 +168,22 @@ a:hover {
   display: inline-block;
   vertical-align: middle;
 }
-#accordion3 #popotan > p {
-  position: relative;
-  display: inline-block;
-  margin: 1.5em 0 1.5em 15px;
-  padding: 7px 10px;
-  min-width: 120px;
-  max-width: 100%;
-  color: #555;
-  font-size: 16px;
-  background: #FFF;
-  border: solid 3px #555;
-  box-sizing: border-box;
+#accordion3 #popotan {
+position: relative;
+background-color: #fff7cc;
+padding: 10px;
+color: #333;
+margin: 15px;
 }
-#accordion3 #popotan:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -24px;
-  margin-top: -12px;
-  border: 12px solid transparent;
-  border-right: 12px solid #FFF;
-  z-index: 2;
-}
-#accordion3 #popotan:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  margin-top: -14px;
-  border: 14px solid transparent;
-  border-right: 14px solid #555;
-  z-index: 1;
+#accordion3 #popotan::before {
+content: "";
+position: absolute;
+border: 12px solid transparent;
+border-right: 12px solid #fff7cc;
+top: 20%;
+left: -24px;
 }
 #accordion3 #popotan >p {
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 }
