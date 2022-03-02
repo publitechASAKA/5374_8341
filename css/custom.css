@@ -164,9 +164,7 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
-#accordion3
-#popotan-img,
-#popotan{
+#accordion3 #popotan-img,#popotan{
   display: inline-block;
   vertical-align: middle;
 }
@@ -203,7 +201,7 @@ a:hover {
   border-right: 14px solid #555;
   z-index: 1;
 }
-#accordion3 #popotan p {
+#accordion3 #popotan >p {
   margin: 0;
   padding: 0;
 }
