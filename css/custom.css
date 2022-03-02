@@ -183,7 +183,7 @@ a:hover {
   border: solid 3px #555;
   box-sizing: border-box;
 }
-.popotan:before {
+#accordion3 .popotan:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -193,7 +193,7 @@ a:hover {
   border-right: 12px solid #FFF;
   z-index: 2;
 }
-.popotan:after {
+#accordion3 .popotan:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -203,7 +203,7 @@ a:hover {
   border-right: 14px solid #555;
   z-index: 1;
 }
-.popotan p {
+#accordion3 .popotan p {
   margin: 0;
   padding: 0;
 }
