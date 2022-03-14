@@ -166,7 +166,7 @@ a:hover {
 }
 #accordion3 #popotan-img,#popotan{
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 #accordion3 #popotan {
 position: relative;
