@@ -174,13 +174,16 @@ background-color: #fff7cc;
 padding: 10px;
 color: #333;
 margin: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 #accordion3 #popotan::before {
 content: "";
 position: absolute;
 border: 12px solid transparent;
 border-right: 12px solid #fff7cc;
-top: 10%;
+top: 20%;
 left: -24px;
 }
 #accordion3 #popotan >p {
