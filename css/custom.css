@@ -164,30 +164,26 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
-#accordion3 #popotan-comment {
-  display: flex;
-  flex-wrap: wrap;
-}
-#accordion3 #popotan-comment.left { /* 左 */
-  flex-direction: row;
-}
-#accordion3 #comment {
-  position: relative; /* 三角の位置を固定するために設定 */
+#accordion3 #popotan-img,#popotan{
   display: inline-block;
-  max-width: 300px;
-  margin: 10px 20px 20px; /* 上 左右 下のマージン */
-  padding: 8px 15px; /* ふきだし内の余白 */
-  background: #fff7cc; /* 背景色 */
-  text-align: left; /* テキストの揃え */
-  border-radius: 15px;
+  vertical-align: middle;
 }
-#accordion3 #comment::after {
-  content: '';
-  border: 14px solid transparent;
-  border-top-color: #f0f0f0;
-  position: absolute;
-  top: 0;
+#accordion3 #popotan {
+position: relative;
+background-color: #fff7cc;
+padding: 10px;
+color: #333;
+margin: 15px;
 }
-#accordion3 #popotan-comment.left #comment::after { /* 左側からの三角の位置 */
-  left: -10px;
+#accordion3 #popotan::before {
+content: "";
+position: absolute;
+border: 12px solid transparent;
+border-right: 12px solid #fff7cc;
+top: 20%;
+left: -24px;
+}
+#accordion3 #popotan >p {
+margin: 0;
+padding: 0;
 }
