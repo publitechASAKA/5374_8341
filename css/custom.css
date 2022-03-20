@@ -159,6 +159,18 @@ a:hover {
 	 color: #df6c31;
 	 text-decoration: underline;
 }
+#accordion3 a.accordion-toggle-top {
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+}
+#accordion3 a.accordion-toggle-top:hover {
+	color: #000000;
+}
 #accordion3 #publitech {
 	border-top: 1px solid black;
 	color: #000000;
