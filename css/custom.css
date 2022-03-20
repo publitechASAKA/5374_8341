@@ -140,19 +140,22 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
-#accordion3 #about {
+#accordion3 #about2 {
 	 color: #000000;
 }
-#accordion3 #about2 {
+#accordion3 #about2 > p > a{
+	 color: #df6c31;
+	 text-decoration: underline;
+}
+#accordion3 #popotan-img{
+     float: left;
+}
+#accordion3 #about {
 	 color: #000000;
 }
 #accordion3 #about > p > a{
 	 font-size: larger;
 	 font-weight: bold;
-	 color: #df6c31;
-	 text-decoration: underline;
-}
-#accordion3 #about2 > p > a{
 	 color: #df6c31;
 	 text-decoration: underline;
 }
@@ -164,26 +167,4 @@ a:hover {
 	 color: #FF0000;
 	 text-decoration: underline;
 }
-#accordion3 #popotan-img,#popotan{
-  display: inline-block;
-  vertical-align: middle;
-}
-#accordion3 #popotan {
-position: relative;
-background-color: #fff7cc;
-padding: 10px;
-color: #333;
-margin: 15px;
-}
-#accordion3 #popotan::before {
-content: "";
-position: absolute;
-border: 12px solid transparent;
-border-right: 12px solid #fff7cc;
-top: 20%;
-left: -24px;
-}
-#accordion3 #popotan >p {
-margin: 10;
-padding: 10;
-}
+
