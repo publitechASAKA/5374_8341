@@ -100,9 +100,9 @@ var TrashModel = function(_lable, _cell, remarks) {
 
   for (var j in this.dayCell) {
     if (this.dayCell[j].length == 1) {
-      result_text += "毎週" + this.dayCell[j] + "曜日 ";
+      result_text += "まいしゅう" + this.dayCell[j] + "ようび ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
-      result_text += "第" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "曜日 ";
+      result_text += "だい" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "ようび ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if (this.dayCell[j].length == 10 && this.dayCell[j].substr(0,1) == "隔") {
       /**** MOD: PICK biweek, Ex:隔月20140401 ****/
@@ -439,7 +439,7 @@ $(function() {
         var selected_name = getSelectedAreaName();
         var area_select_form = $("#select_area");
         var select_html = "";
-        select_html += '<option value="-1">地域を選択してください</option>';
+        select_html += '<option value="-1">すんでいるところ</option>';
         for (var row_index in areaModels) {
           var area_name = areaModels[row_index].label;
           var selected = (selected_name == area_name) ? 'selected="selected"' : "";
@@ -557,13 +557,13 @@ $(function() {
             var leftDay = Math.ceil((trash.mostRecent.getTime() - today.getTime()) / (1000 * 60 * 60 * 24))
 
             if (leftDay == 0) {
-              leftDayText = "今日";
+              leftDayText = "きょう";
             } else if (leftDay == 1) {
-              leftDayText = "明日";
+              leftDayText = "あした";
             } else if (leftDay == 2) {
-              leftDayText = "明後日"
+              leftDayText = "あさって"
             } else {
-              leftDayText = leftDay + "日後";
+              leftDayText = leftDay + "にちご";
             }
 	  }
 
