@@ -100,7 +100,7 @@ var TrashModel = function(_lable, _cell, remarks) {
 
   for (var j in this.dayCell) {
     if (this.dayCell[j].length == 1) {
-      result_text += "まいしゅう" + this.dayCell[j] + "ようび ";
+      result_text += this.dayCell[j] + "ようび ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) != "*") {
       result_text += "だい" + this.dayCell[j].charAt(1) + this.dayCell[j].charAt(0) + "ようび ";
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
@@ -141,7 +141,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     return this.getRemark() + this.dayLabel + " " + result_text;
   }
 
-  var day_enum = ["日", "月", "火", "水", "木", "金", "土"];
+  var day_enum = ["にち", "げつ", "か", "すい", "もく", "きん", "ど"];
 
   function getDayIndex(str) {
     for (var i = 0; i < day_enum.length; i++) {
