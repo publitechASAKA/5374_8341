@@ -141,7 +141,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     return this.getRemark() + this.dayLabel + " " + result_text;
   }
 
-  var day_enum = ["にち", "げつ", "か", "すい", "もく", "きん", "ど"];
+  var day_enum = ["日", "月", "火", "水", "木", "金", "土"];
 
   function getDayIndex(str) {
     for (var i = 0; i < day_enum.length; i++) {
