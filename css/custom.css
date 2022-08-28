@@ -143,21 +143,73 @@ a:hover {
 #accordion3 #about2 {
 	 color: #000000;
 }
-#accordion3 #about2 > p > a{
-	 color: #df6c31;
-	 text-decoration: underline;
+/*!
+ * ボタン設定
+ */
+#accordion3 #about2 > p > a {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background: #df6c31;
+  border: 1px solid #df6c31;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0 45px 0 25px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+#accordion3 #about2 > p > a:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -6px;
+}
+#accordion3 #about2 > p > a:hover {
+  background: #fff;
+  color: #df6c31;
+}
+#accordion3 #about2 > p > a:hover:before {
+  border-top: 2px solid #df6c31;
+  border-right: 2px solid #df6c31;
 }
 #accordion3 #popotan-img{
      float: left;
 }
 #accordion3 #about {
 	 color: #000000;
+	 margin: 0 auto;
 }
-#accordion3 #about > p > a{
-	 font-size: larger;
-	 font-weight: bold;
-	 color: #df6c31;
-	 text-decoration: underline;
+/*!
+ * ボタン設定
+ */
+#accordion3 #about > p > a {
+	height: 30px;
+	min-width: 20px;
+	padding: 0 10px;
+	margin: 10px 5px;
+	background: #EDEDED;
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.5);
+	color: #000000;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;	
 }
 #accordion3 a.accordion-toggle-top {
 	color: #000000;
