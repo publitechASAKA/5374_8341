@@ -156,6 +156,7 @@ a:hover {
   align-items: center;
   width: 100%;
   height: 50px;
+  line-height:3;
   position: relative;
   background: #df6c31;
   border: 1px solid #df6c31;
