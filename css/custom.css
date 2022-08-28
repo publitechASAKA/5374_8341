@@ -143,6 +143,9 @@ a:hover {
 #accordion3 #about2 {
 	 color: #000000;
 }
+#accordion3 #about2 {
+  max-width: 500px;
+}
 /*!
  * ボタン設定
  */
